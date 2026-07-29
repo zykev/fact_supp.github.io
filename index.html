@@ -39,6 +39,29 @@
           <article><h3>Sample 0002</h3><div class="videos"><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0002.mp4" type="video/mp4" /></video><figcaption>Full body · Render (left) vs. ground truth (right)</figcaption></figure><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0002_face.mp4" type="video/mp4" /></video><figcaption>Face zoom-in · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
         </div>
       </section>
+
+      <section id="offset-learning">
+        <div class="section-title">
+          <div><p class="dataset-name">DEFORMABLE ATTENTION</p><h2>Offset Learning Analysis in Deformable Attention</h2></div>
+          <p>We visualize the feature-space sampling behavior of deformable attention using a trained THuman checkpoint. The offsets are view-specific displacements in the Sapiens feature map, relative to the LBS-aligned projection.</p>
+        </div>
+        <article class="attention-card">
+          <figure class="attention-figure">
+            <img src="images/thuman%20example.png" alt="Deformable-attention offset learning analysis on a THuman example." />
+            <figcaption>Visualization of LBS-aligned reference projections, learned sampling locations, and their attention-weighted aggregation for representative canonical template points.</figcaption>
+          </figure>
+          <div class="attention-explanation">
+            <p>Each row shows how one canonical template point gathers features around its LBS-projected reference location. We sample some points from the initialized template in canonical space, and their corresponding locations in the source view are shown in the reference image and PCA visualization of Sapiens features.</p>
+            <dl class="legend">
+              <div><dt>Red ×</dt><dd>LBS-aligned projection of reference point.</dd></div>
+              <div><dt>Colored dots and arrows</dt><dd>Learned sampling locations and their offsets from the reference point.</dd></div>
+              <div><dt>Dot transparency</dt><dd>Attention weight: more opaque locations contribute more to feature aggregation.</dd></div>
+              <div><dt>Cyan ★</dt><dd>Attention-weighted centroid of the sampled locations.</dd></div>
+            </dl>
+            <p><strong>d</strong> represents the overall local sampling neighborhood of each reference point. <strong>learned</strong> is the offset displacement relative to the initialization.</p>
+          </div>
+        </article>
+      </section>
     </main>
     <footer>Anonymous supplementary material.</footer>
   </body>
