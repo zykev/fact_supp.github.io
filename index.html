@@ -3,67 +3,94 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Anonymous supplementary qualitative video results." />
-    <title>Anonymous Supplementary Videos</title>
+    <meta name="description" content="Anonymous video supplementary material." />
+    <title>Video Supplementary</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <p class="kicker">Anonymous supplementary material</p>
-      <h1>Qualitative video results</h1>
-      <p class="intro">Two evaluation settings using 4D-DRESS and THuman are shown below. 4D-DRESS videos compare renderings with ground truth over time, while THuman videos show full-body and face renderings across viewpoints.</p>
+      <h1>Video Supplementary</h1>
+      <p class="intro">Qualitative results on THuman and 4D-DRESS.</p>
     </header>
-
     <main>
-      <section id="4ddress">
-        <div class="section-title">
-          <div><p class="dataset-name">4D-DRESS DATASET</p><h2>Four-view temporal comparison</h2></div>
-          <p>Each identity has one temporal video containing four camera viewpoints. For every viewpoint in each block, the rendering is shown on the left and the ground truth is shown on the right.</p>
-        </div>
-        <div class="samples">
-          <article><h3>Sample 00123</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00123.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00152</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00152.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00154</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00154.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00176</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00176.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00187</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00187.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00188</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00188.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 00190</h3><div class="videos single-video"><figure><video controls autoplay loop muted playsinline><source src="videos/4ddress/00190.mp4" type="video/mp4" /></video><figcaption>Four views · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-        </div>
-      </section>
-
       <section id="thuman">
         <div class="section-title">
-          <div><p class="dataset-name">THUMAN DATASET</p><h2>12-view orbit rendering</h2></div>
-          <p>A static identity is rendered in 12 uniformly sampled viewpoints, forming a complete 360° orbit.</p>
+          <p class="section-index">01</p>
+          <h2>THuman Static Reconstruction</h2>
+          <p>Each video shows a 24-view orbit. Renderings are on the left and ground truth is on the right.</p>
         </div>
-        <div class="samples">
-          <article><h3>Sample 0000</h3><div class="videos"><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0000.mp4" type="video/mp4" /></video><figcaption>Full body · Render (left) vs. ground truth (right)</figcaption></figure><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0000_face.mp4" type="video/mp4" /></video><figcaption>Face zoom-in · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 0001</h3><div class="videos"><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0001.mp4" type="video/mp4" /></video><figcaption>Full body · Render (left) vs. ground truth (right)</figcaption></figure><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0001_face.mp4" type="video/mp4" /></video><figcaption>Face zoom-in · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
-          <article><h3>Sample 0002</h3><div class="videos"><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0002.mp4" type="video/mp4" /></video><figcaption>Full body · Render (left) vs. ground truth (right)</figcaption></figure><figure><video controls autoplay loop muted playsinline><source src="videos/thuman/0002_face.mp4" type="video/mp4" /></video><figcaption>Face zoom-in · Render (left) vs. ground truth (right)</figcaption></figure></div></article>
+        <div class="video-grid four-up">
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/0009.mp4" type="video/mp4" /></video><figcaption>Sample 0009</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/0029.mp4" type="video/mp4" /></video><figcaption>Sample 0029</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/0138.mp4" type="video/mp4" /></video><figcaption>Sample 0138</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/0291.mp4" type="video/mp4" /></video><figcaption>Sample 0291</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/0412.mp4" type="video/mp4" /></video><figcaption>Sample 0412</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/1051.mp4" type="video/mp4" /></video><figcaption>Sample 1051</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/1775.mp4" type="video/mp4" /></video><figcaption>Sample 1775</figcaption></figure>
+          <figure><video controls loop muted playsinline preload="metadata"><source src="videos/thuman/2049.mp4" type="video/mp4" /></video><figcaption>Sample 2049</figcaption></figure>
         </div>
       </section>
-
-      <section id="offset-learning">
+      <section id="4ddress-temporal">
         <div class="section-title">
-          <div><p class="dataset-name">DEFORMABLE ATTENTION</p><h2>Offset Learning Analysis in Deformable Attention</h2></div>
-          <p>We visualize the feature-space sampling behavior of deformable attention using a trained THuman checkpoint. The offsets are view-specific displacements in the Sapiens feature map, relative to the LBS-aligned projection.</p>
+          <p class="section-index">02</p>
+          <h2>4D-DRESS Dynamic Reconstruction</h2>
+          <p>Each sample contains four views. Renderings are on the left and ground truth is on the right.</p>
         </div>
-        <article class="attention-card">
-          <figure class="attention-figure">
-            <img src="images/thuman_example.png" alt="Deformable-attention offset learning analysis on a THuman example." />
-            <figcaption>Visualization of LBS-aligned reference projections, learned sampling locations, and their attention-weighted aggregation for representative canonical template points.</figcaption>
-          </figure>
-          <div class="attention-explanation">
-            <p>Each row shows how one canonical template point gathers features around its LBS-projected reference location. We sample some points from the initialized template in canonical space, and their corresponding locations in the source view are shown in the reference image and PCA visualization of Sapiens features.</p>
-            <dl class="legend">
-              <div><dt>Red ×</dt><dd>LBS-aligned projection of reference point.</dd></div>
-              <div><dt>Colored dots and arrows</dt><dd>Learned sampling locations and their offsets from the reference point.</dd></div>
-              <div><dt>Dot transparency</dt><dd>Attention weight: more opaque locations contribute more to feature aggregation.</dd></div>
-              <div><dt>Cyan ★</dt><dd>Attention-weighted centroid of the sampled locations.</dd></div>
-            </dl>
-            <p><strong>d</strong> represents the overall local sampling neighborhood of each reference point. <strong>learned</strong> is the offset displacement relative to the initialization.</p>
+        <div class="temporal-grid">
+          <article class="temporal-card"><h3>Sample 00123</h3><div class="comparison-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/canonical_temporal/00123_outer_take10.mp4" type="video/mp4" /></video><figcaption>Canonical temporal</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/pose_temporal/00123_outer_take10.mp4" type="video/mp4" /></video><figcaption>Pose temporal</figcaption></figure></div></article>
+          <article class="temporal-card"><h3>Sample 00152</h3><div class="comparison-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/canonical_temporal/00152_outer_take15.mp4" type="video/mp4" /></video><figcaption>Canonical temporal</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/pose_temporal/00152_outer_take15.mp4" type="video/mp4" /></video><figcaption>Pose temporal</figcaption></figure></div></article>
+          <article class="temporal-card"><h3>Sample 00187</h3><div class="comparison-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/canonical_temporal/00187_inner_take2.mp4" type="video/mp4" /></video><figcaption>Canonical temporal</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/pose_temporal/00187_inner_take2.mp4" type="video/mp4" /></video><figcaption>Pose temporal</figcaption></figure></div></article>
+          <article class="temporal-card"><h3>Sample 00188</h3><div class="comparison-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/canonical_temporal/001888_inner_take2.mp4" type="video/mp4" /></video><figcaption>Canonical temporal</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/pose_temporal/00188_inner_take2.mp4" type="video/mp4" /></video><figcaption>Pose temporal</figcaption></figure></div></article>
+          <article class="temporal-card"><h3>Sample 00190</h3><div class="comparison-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/canonical_temporal/00190_outer_take10.mp4" type="video/mp4" /></video><figcaption>Canonical temporal</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/4ddress/pose_temporal/00190_outer_take10.mp4" type="video/mp4" /></video><figcaption>Pose temporal</figcaption></figure></div></article>
+        </div>
+      </section>
+      <section id="novel-pose">
+        <div class="section-title">
+          <p class="section-index">03</p>
+          <h2>Novel Pose Synthesis</h2>
+          <p>For each target pose: SMPL-X, 4D-DRESS source pose, then transferred THuman identities.</p>
+        </div>
+        <article class="pose-row">
+          <h3>Pose A</h3>
+          <div class="video-grid pose-grid">
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20A/smplx_direct.mp4" type="video/mp4" /></video><figcaption>SMPL-X</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20A/4ddress_00123.mp4" type="video/mp4" /></video><figcaption>4D-DRESS 00123 · Source pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20A/thuman_0001.mp4" type="video/mp4" /></video><figcaption>THuman 0001 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20A/thuman_1429.mp4" type="video/mp4" /></video><figcaption>THuman 1429 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20A/thuman_2398.mp4" type="video/mp4" /></video><figcaption>THuman 2398 · Transfer pose</figcaption></figure>
           </div>
         </article>
+        <article class="pose-row">
+          <h3>Pose B</h3>
+          <div class="video-grid pose-grid">
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20B/smplx_direct.mp4" type="video/mp4" /></video><figcaption>SMPL-X</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20B/4ddress_00190.mp4" type="video/mp4" /></video><figcaption>4D-DRESS 00190 · Source pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20B/thuman_0001.mp4" type="video/mp4" /></video><figcaption>THuman 0001 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20B/thuman_1429.mp4" type="video/mp4" /></video><figcaption>THuman 1429 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20B/thuman_2398.mp4" type="video/mp4" /></video><figcaption>THuman 2398 · Transfer pose</figcaption></figure>
+          </div>
+        </article>
+        <article class="pose-row">
+          <h3>Pose C</h3>
+          <div class="video-grid pose-grid">
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20C/smplx_direct.mp4" type="video/mp4" /></video><figcaption>SMPL-X</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20C/4ddress_00187.mp4" type="video/mp4" /></video><figcaption>4D-DRESS 00187 · Source pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20C/thuman_0001.mp4" type="video/mp4" /></video><figcaption>THuman 0001 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20C/thuman_1429.mp4" type="video/mp4" /></video><figcaption>THuman 1429 · Transfer pose</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="metadata"><source src="videos/novel_pose/pose%20C/thuman_2398.mp4" type="video/mp4" /></video><figcaption>THuman 2398 · Transfer pose</figcaption></figure>
+          </div>
+        </article>
+      </section>
+      <section id="cloth-joints">
+        <div class="section-title">
+          <p class="section-index">04</p>
+          <h2>Visualization of Cloth Joints</h2>
+          <p>Cloth-joint behavior and the learned body–cloth skinning fusion.</p>
+        </div>
+        <article class="joint-row"><h3>Sample 00123</h3><div class="video-grid joint-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00123/joint_trajectory.mp4" type="video/mp4" /></video><figcaption>Cloth joint location</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00123/joint_rotation.mp4" type="video/mp4" /></video><figcaption>Cloth joint rotation</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00123/map_body.mp4" type="video/mp4" /></video><figcaption>Body LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00123/map_cloth.mp4" type="video/mp4" /></video><figcaption>Cloth LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00123/map_fusion.mp4" type="video/mp4" /></video><figcaption>LBS fusion weight</figcaption></figure></div></article>
+        <article class="joint-row"><h3>Sample 00187</h3><div class="video-grid joint-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00187/joint_trajectory.mp4" type="video/mp4" /></video><figcaption>Cloth joint location</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00187/joint_rotation.mp4" type="video/mp4" /></video><figcaption>Cloth joint rotation</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00187/map_body.mp4" type="video/mp4" /></video><figcaption>Body LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00187/map_cloth.mp4" type="video/mp4" /></video><figcaption>Cloth LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00187/map_fusion.mp4" type="video/mp4" /></video><figcaption>LBS fusion weight</figcaption></figure></div></article>
+        <article class="joint-row"><h3>Sample 00188</h3><div class="video-grid joint-grid"><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00188/joint_trajectory.mp4" type="video/mp4" /></video><figcaption>Cloth joint location</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00188/joint_rotation.mp4" type="video/mp4" /></video><figcaption>Cloth joint rotation</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00188/map_body.mp4" type="video/mp4" /></video><figcaption>Body LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00188/map_cloth.mp4" type="video/mp4" /></video><figcaption>Cloth LBS impact range</figcaption></figure><figure><video controls loop muted playsinline preload="metadata"><source src="videos/visual_joint/00188/map_fusion.mp4" type="video/mp4" /></video><figcaption>LBS fusion weight</figcaption></figure></div></article>
       </section>
     </main>
     <footer>Anonymous supplementary material.</footer>
